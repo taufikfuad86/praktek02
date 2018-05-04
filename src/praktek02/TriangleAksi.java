@@ -6,5 +6,7 @@ public class TriangleAksi {
         t1.tinggi = 10;
         
         t1.cetakinfo();
+        
+        System.out.println("Luas Triangle = "+t1.hitungLuas());
     }
 }
