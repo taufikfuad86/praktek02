@@ -7,9 +7,14 @@ public class Triangle {
         System.out.println("==================");
         System.out.println("ALAS    : "+alas);
         System.out.println("TINGGI  : "+tinggi);
-        System.out.println("==================");
-        
+        System.out.println("==================");    
     }
+
+    public Triangle() {
+        alas = 20;
+        tinggi = 10;
+    }
+    
     
     double hitungLuas(){
         double luas;
