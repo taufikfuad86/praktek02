@@ -11,8 +11,13 @@ public class Triangle {
     }
 
     public Triangle() {
-        alas = 20;
+        alas = 30;
         tinggi = 10;
+    }
+
+    public Triangle(double alas, double tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
     }
     
     
