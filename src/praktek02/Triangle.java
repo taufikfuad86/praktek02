@@ -1,4 +1,12 @@
 package praktek02;
 public class Triangle {
+    double alas;
+    double tinggi;
     
+    void cetakinfo(){
+        System.out.println("==================");
+        System.out.println("ALAS    : "+alas);
+        System.out.println("TINGGI  : "+tinggi);
+        System.out.println("==================");
+    }
 }
